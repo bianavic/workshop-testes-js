@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,8 @@
     "mocha": "*",
     "nodemon": "^1.19.1"
   },
-  "//": "mocha is our preference, but you can use any test runner you like"
+  "//": "mocha is our preference, but you can use any test runner you like",
+  "dependencies": {
+    "should": "^13.2.3"
+  }
 }
