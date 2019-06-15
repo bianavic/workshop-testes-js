@@ -1,17 +1,7 @@
-const fibonacci = (num) => {
-  // if(num == 1){
-  //     return num;
-  // }
-  // if(num == 2) {
-  //     return '1,1,2';
-  // }
-
-  if (num < 2) {
-    return num
-  }
-  return fibonacci(num - 1) + fibonacci(num - 2)
+const fibonacci = (numero) => {
+  if (numero === '1' || numero === '2') {
+    return '1'
+  } else {
+    return fibonacci(numero - 1) + fibonacci(numero - 2) 
 }
-
-module.exports = fibonacci
-
-// soma do numero anterior com o atual
+}
