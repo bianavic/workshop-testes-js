@@ -11,3 +11,14 @@ Entrada de amostra:
 10 20 20 10 10 30 50 10 20
 Saída de Amostra:
 Joana pode vender 3 pares de meias.
+
+
+1 meia = inteiro => cor1
+2 meias =mesmo inteiro =>cor1
+
+pillha de meias = n
+if n = cor1 && n = cor2
+n = pode vender
+
+else
+nao pode vender
