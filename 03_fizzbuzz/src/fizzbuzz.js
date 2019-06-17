@@ -1,19 +1,18 @@
-function fizzbuzz (numero) {
-  if (typeof numero !== 'number') {
-    return new Error('Você é sacana, digite um numero pô!')
-  }
-  /*
-    if (numero % 3 == 0 && numero % 5 == 0) {
-        return 'FizzBuzz'
-    } */
-  if (numero % 3 === 0) {
-    return 'Fizz'
-  }
+function FizzBuzz(mostraNumeros) {
 
-  if (numero % 5 === 0) {
-    return 'Buzz'
+  if (mostraNumeros % 3 === 0 && mostraNumeros % 5 === 0) {
+    return ('FizzBuzz')
+  } else if (mostraNumeros % 3 === 0) {
+    return ('Fizz')
+  } else if (mostraNumeros % 5 === 0) {
+    return ('Buzz')
+  } else {
+    return (mostraNumeros)
   }
-  return numero
 }
 
-module.export = fizzbuzz
+for (let mostraNumeros = 1; mostraNumeros.length < 100; mostraNumeros++) {
+  FizzBuzz(mostraNumeros)
+}
+
+module.exports = FizzBuzz
