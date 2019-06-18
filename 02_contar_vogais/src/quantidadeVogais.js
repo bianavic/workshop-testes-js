@@ -1,18 +1,15 @@
-/* function quantidadeVogais (string) {
-  const palavra = string.match(/[aeiou]/gi)
-  return palavra === null ? 0 : palavra.length
-}
- */
-/* function quantidadeVogais (palavra) {
-  let quantidade = 0
+function quantidadeVogais () {
+  let palavra = 0
 
-  for (let letra = 0; letra < quantidadeVogais.length; letra++) {
-    if (palavra === 'a' || palavra === 'e' || palavra === 'i' || palavra === 'o' || palavra === 'u' ||
-  palavra === 'A' || palavra === 'E' || palavra === 'I' || palavra === 'O' || palavra === 'U') {
-    quantidadeVogais++
-    }
+  for (let palavra = 0; palavra < palavra.length; palavra++) { palavra++ }
+
+  if (palavra === '') {
+    return 'Por favor, digite uma palavra'
+  } else {
+    (palavra === 'a' || palavra === 'e' || palavra === 'i' || palavra === 'o' || palavra === 'u' ||
+  palavra === 'A' || palavra === 'E' || palavra === 'I' || palavra === 'O' || palavra === 'U')
+    palavra++
   }
-  // return quantidade
 }
- */
+
 module.exports = quantidadeVogais
