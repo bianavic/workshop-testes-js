@@ -1,0 +1,23 @@
+{
+  "name": "workshop-testes",
+  "version": "1.0.0",
+  "description": "Workshop de Testes Unitários com JavaScript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JossCorrea/workshop-testes-js.git"
+  },
+  "author": "Fabiana Ferlin <bianavic@gmail.com> (https://fabiferlin.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JossCorrea/workshop-testes-js/issues"
+  },
+  "homepage": "https://github.com/JossCorrea/workshop-testes-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
