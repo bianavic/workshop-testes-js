@@ -1,0 +1,19 @@
+{
+  "name": "contar_vogais",
+  "version": "1.0.0",
+  "description": "Utilizando as técnicas de TDD que você aprendeu, crie uma função que receba uma string e conte o número de vogais dessa string.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Fabiana Ferlin <bianavic@gmail.com> (https://fabiferlin.com.br/)",
+  "license": "MIT"
+}
