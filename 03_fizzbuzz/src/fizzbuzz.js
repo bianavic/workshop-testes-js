@@ -1,4 +1,7 @@
-function FizzBuzz(mostraNumeros) {
+function FizzBuzz (mostraNumeros) {
+  if (mostraNumeros % 3 === 0) {
+    return 'Fizz'
+  }
 
 /*   if (mostraNumeros % 3 === 0 && mostraNumeros % 5 === 0) {
     return ('FizzBuzz')
