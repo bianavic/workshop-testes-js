@@ -1,14 +1,15 @@
 function FizzBuzz (mostraNumeros) {
   if (mostraNumeros % 3 === 0) {
     return 'Fizz'
+  } else if (mostraNumeros % 5 === 0) {
+    return ('Buzz')
   }
 
 /*   if (mostraNumeros % 3 === 0 && mostraNumeros % 5 === 0) {
     return ('FizzBuzz')
   } else if (mostraNumeros % 3 === 0) {
     return ('Fizz')
-  } else if (mostraNumeros % 5 === 0) {
-    return ('Buzz')
+  } 
   } else {
     return (mostraNumeros)
   }
