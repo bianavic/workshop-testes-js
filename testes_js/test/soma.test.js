@@ -15,4 +15,8 @@ it('A soma deve retornar 10 quando passamos os parametros 4 e 6', () => {
   it('A soma deve retornar um erro quando nao passamos os parametros', () => {
     expect(soma()).to.be.an('error')
   })
+  it('A soma deve retornar um erro quando passamos mais do que dois parametros', () => {
+    expect(soma(1,2,3)).to.be.an('error')
+  })
+
 })
