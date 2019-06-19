@@ -1,5 +1,5 @@
-function soma (a, b) {
-if (arguments.length > 2) {
+function soma(a, b) {
+  if (arguments.length > 2) {
     return new Error('voce deve informar 2 numeros e nao pode ser letras')
   }
   if (typeof a !== 'number' || typeof b !== 'number') {
@@ -7,5 +7,5 @@ if (arguments.length > 2) {
   }
 
   return a + b
-}  
+}
 module.exports = soma
