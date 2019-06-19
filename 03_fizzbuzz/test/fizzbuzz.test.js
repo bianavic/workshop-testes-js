@@ -17,8 +17,7 @@ describe('FizzBuzz é uma função', () => {
   it('Deve retornar Buzz se o numero for multiplo de 5', () => {
     expect(FizzBuzz(5)).to.be.equal('Buzz')
   })
-/* 
-  it('Se for qualquer multiplo de 3 e 5, ou seja, 15', () => {
+  it('Deve retornar FizzBuzz se for qualquer multiplo de 3 e 5', () => {
     expect(FizzBuzz(15)).to.be.equal('FizzBuzz')
-  }) */
+  })
 })
