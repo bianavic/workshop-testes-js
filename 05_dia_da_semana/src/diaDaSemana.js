@@ -1,6 +1,4 @@
-const DiaDaSemana = ['segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado', 'domingo']
-function data () {
-
-}
-
-module.exports = DiaDaSemana
+function diaDaSemana (dia) {
+    return Date.diadasemana[dia.getDay()]
+  }
+module.exports = diaDaSemana
