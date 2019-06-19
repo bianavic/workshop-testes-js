@@ -1,6 +1,6 @@
 function FizzBuzz(mostraNumeros) {
 
-  if (mostraNumeros % 3 === 0 && mostraNumeros % 5 === 0) {
+/*   if (mostraNumeros % 3 === 0 && mostraNumeros % 5 === 0) {
     return ('FizzBuzz')
   } else if (mostraNumeros % 3 === 0) {
     return ('Fizz')
@@ -12,7 +12,7 @@ function FizzBuzz(mostraNumeros) {
 }
 
 for (let mostraNumeros = 1; mostraNumeros.length < 100; mostraNumeros++) {
-  FizzBuzz(mostraNumeros)
+  FizzBuzz(mostraNumeros) */
 }
 
 module.exports = FizzBuzz
