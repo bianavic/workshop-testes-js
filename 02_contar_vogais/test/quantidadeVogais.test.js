@@ -3,7 +3,7 @@ const quantidadeVogais = require('../src/quantidadeVogais')
 
 describe('quantidadeVogais é uma função', () => {
   it('Verifica se aeiou são vogais', () => {
-    expect(quantidadeVogais('Ola Mundo')).to.equal(['a', 'e'oa uo')
+    expect(quantidadeVogais('Ola Mundo')).to.equal(['a', 'e', 'i', 'o', 'u'])
   })
 
   it('aceita strings com uma ou mais palavras', () => {
